@@ -1,4 +1,4 @@
-/* :root {
+:root {
   --color-violet-50:#f5f3ff;
   --color-violet-100:#ede9fe;
   --color-violet-200:#ddd6fe;
@@ -29,7 +29,7 @@ background: linear-gradient(
 }
 
 .container {
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 
 .header {
@@ -53,11 +53,11 @@ background: linear-gradient(
 .header-title {
   font-size: 2.25rem;
   font-weight: bold;
-  background: linear-gradient(
+  /* background: linear-gradient(
     to right,
     var(--color-gray-600),
     var(--color-gray-700)
-  );
+  ); */
 }
 .task-list {
   flex-direction: column;
@@ -229,9 +229,9 @@ body {
 
 .task-card {
   margin: 0.355rem;
-  padding: 0.075rem;
-  border-radius: 1rem;
-  border: 1.75px solid var(--color-violet-100);
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: 1.5px solid var(--color-violet-100);
   background: var(--color-white);
   transition: all 0.3s ease;
 }

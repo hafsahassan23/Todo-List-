@@ -28,11 +28,13 @@ const sampleTasks = [
 ];
 
 function App() {
+  //there are variables using tasks= grap data, setTasks = add new Task
+
   const [tasks, setTasks] = useState(sampleTasks);
-   
+
   return (
-    <div className="container" >
-      <div className="header" >
+    <div className="container">
+      <div className="header">
         <div className="header-icon">
           <Bell />
         </div>
@@ -40,10 +42,11 @@ function App() {
       </div>
 
       <div className="task-container">
-        <TaskList tasks={tasks} setTasks={ setTasks } />
+        <TaskList tasks={tasks} setTasks={setTasks} />
       </div>
     </div>
   );
 }
 
 export default App;
+
